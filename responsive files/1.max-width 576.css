@@ -200,45 +200,29 @@
 
   .section-2 .container-2 {
     width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     padding: 20px 0px;
   }
-  /* section-2 left */
 
-  .section-2 .container-2 .left {
+  /* section-2 box */
+
+  .section-2 .container-2 .box {
+    position: relative;
     width: 100%;
-    margin-right: 0px;
+    height: auto;
     transition-duration: 2s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .section-2 .container-2 .left .leftcontent h1 {
-    line-height: 35px;
-    font-size: 30px;
-  }
-  .section-2 .container-2 .left .leftcontent {
-    padding: 40px;
-  }
-  .section-2 .container-2 .left .leftcontent a {
-    font-size: 15px;
-  }
-
-  /* section-2 right */
-
-  .section-2 .container-2 .right {
-    margin-top: 30px;
+  .section-2 .container-2 .box img {
     width: 100%;
-    margin-right: 0px;
-    transition-duration: 2s;
-  }
-  .section-2 .container-2 .right .rightcontent {
-    padding: 40px;
-  }
-  .section-2 .container-2 .right .rightcontent h1 {
-    line-height: 35px;
-    font-size: 30px;
-  }
-  .section-2 .container-2 .right .rightcontent a {
-    font-size: 15px;
+    height: 300px;
+    border-radius: 10px;
+    transition-duration: 1s;
   }
 
   /* section3 */
