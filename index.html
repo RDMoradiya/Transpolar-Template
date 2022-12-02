@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transpolar</title>
+    <link rel="icon" href="logo.png">
+
+    <!-- jQuery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- bxSlider (4.2.14) -->
+
+    <!-- JavaScript only -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.14/jquery.bxslider.min.js"></script>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.14/jquery.bxslider.css"/>
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="css file/style.css" />
+
+    <!-- css file max-width: 576px  link-->
+    <link rel="stylesheet" href="responsive files/1.max-width 576.css">
+
+    <!-- css file min-width: 576px  link-->
+    <link rel="stylesheet" href="responsive files/2.min-width 576.css">  
+    
+    <!-- css file min-width: 768  link-->
+    <link rel="stylesheet" href="responsive files/3.min-width 768.css"> 
+
+    <!-- css file min-width: 992px  link-->
+    <link rel="stylesheet" href="responsive files/4.min-width 992.css">
+
+    <!-- css file min-width: 1200px  link-->
+    <link rel="stylesheet" href="responsive files/5.min-width 1200.css">
+
+    <!-- slider jQuery code-->
+    <script src="js file/jQuery.js"></script>
+
+    
+  </head>
+  <body onscroll="menubar_fix()">
+
+    <!-- Header -->
+    <div class="container">
+    <div class="navigation">
+    <h1 class="logo">
+      <a href="#" class="trans"><i class="fas fa-truck-moving"></i><span ">Transpolar</span> </a>
+    </h1>
+  <div class="men_barlist">
+    <ul>
+      <li><a href="#" id="navtext" style="color: orangered;">Home</a></li>
+      <li><a href="#" id="navtext">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li>
+        <a href="#"><i class="fa-solid fa-caret-left" id="icon_left" style="font-size: 10px;"></i>Blog <i class="fa-solid fa-caret-down" style="font-size: 10px;"></i></a>
+        <ul class="submenu">
+          <li><a href="#">Blog with Right Sidebar</a></li>
+          <li><a href="#">Blog with Left Sidebar</a></li>
+          <li><a href="#">Blog without Sidebar</a></li>
+          <li><a href="#">Blog Single with Right Sidebar</a></li>
+          <li><a href="#">Blog Single with Left Sidebar</a></li>
+          <li><a href="#">Blog with Right Sidebar</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-caret-left" id="icon_left_1" style="font-size: 10px;"></i>Pages <i class="fa-solid fa-caret-down" style="font-size: 10px;"></i></span
+        ></a>
+        <ul class="sub_menu">
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-caret-left" id="icon_left_2" style="font-size: 10px;"></i>&nbspEmail Template <i class="fa-solid fa-caret-right" style="font-size: 10px;"></i>
+              
+              
+              </a>
+            <ul class="sub_sub_menu">
+              <li><a href="#">Gmail</a></li>
+              <li><a href="#">Yahoo</a></li>
+            </ul>
+          </li>
+          <li><a href="#">&nbspShortcodes</a></li>
+          <li><a href="#">&nbspLanding Page</a></li>
+          <li><a href="#">&nbspError Page</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+      <a href="#" class="search"
+        ><span class="fa-solid fa-magnifying-glass"></span
+      ></a>
+      <a href="#" class="theme"><span class="fa-solid fa-moon"></span></a>
+    </ul>
+  </div>
+    </div>
+    <button class="bar_button">
+    <a href="#" class="rs_nav"><i class="fa-solid fa-bars"></i></a>
+    </button>
+    </div>
+
+
+    <!-- Bxslider -->
+    <div class="slide-container">
+      <!-- slide-1 -->
+      <div class="slide">
+        <img src="image/1.jpg" alt="" />
+        <div class="caption">
+          <h3>MAKE THE RIGHT MOVE.</h3>
+          <h1 class="title-hero-19">
+            Moving Your<br />
+            Products Across All <br />Borders.
+          </h1>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <!-- slide-2 -->
+      <div class="slide">
+        <img src="image/2.jpg" alt="" />
+        <div class="caption">
+          <h3>GO SMOOTHLY WITH SAFETY.</h3>
+          <h1>We Are Here To Move <br />Your Buiness.</h1>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <!-- slide-3 -->
+      <div class="slide">
+        <img src="image/3.jpg" alt="" />
+        <div class="caption">
+          <h3>MAKE THE RIGHT MOVE.</h3>
+          <h1 class="title-hero-19">
+            Moving Your<br />
+            Products Across All <br />Borders.
+          </h1>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <!-- slide-4 -->
+      <div class="slide">
+        <img src="image/4.jpg" alt="" />
+        <div class="caption">
+          <h3>GO SMOOTHLY WITH SAFETY.</h3>
+          <h1>We Are Here To Move <br />Your Buiness.</h1>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- section-1 -->
+    <div class="section-1">
+      <div class="container-1">
+        <div class="left"><img src="image/5.jpg" alt=""></div>
+        <div class="right">
+          <h3>WE’RE SAFE MOVERS.</h3>
+          <h1>Fast And Reliable Shipping Services</h1>
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel.Lorem ipsum dolor sit, amet
+            consectetur ante ipsum elit. faucibus orci luctus et ultrices
+            posuere cubilia Curae Nulla mollis dapibus nunc.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-2 -->
+    <div class="section-2">
+  <div class="container-2">
+    <div class="left">
+      <div class="leftcontent">
+        <h1>
+          Global Logistic Service For 
+          Buiness
+        </h1>
+        <a href="#">Explore Property</a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="rightcontent">
+        <h1>We Give You Complete Control Of Your Shipents.</h1>
+        <a href="#">Explore Property</a>
+      </div>
+    </div>
+  </div>
+    </div>
+
+
+    <!-- section-3 -->
+    <div class="section-3">
+      <div class="container-3">
+        <div class="left">
+          <h3>SECURE COURIER</h3>
+          <h1>Secure Courier For Small & Big Packages</h1>
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel.Lorem ipsum dolor sit, amet
+            consectetur elit. Earum mollitia cum ex ipsam autem!earum sequi
+            amet.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="right">
+          <div class="rightcontent">
+            <div class="container-4">
+              <div class="icon">
+                <span class="fas fa-truck-loading"></span>
+              </div>
+              <div class="content">
+                <h2><a href="#">Tracking Is Easy</a></h2>
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                  ultrices in ligula tempufddfel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="rightcontent">
+            <div class="container-4">
+              <div class="icon"><span class="fas fa-boxes"></span></div>
+              <div class="content">
+                <h2><a href="#">Multiple Warehouses</a></h2>
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                  ultrices in ligula tempufddfel.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-4 -->
+    <div class="section-4">
+      <img src="image/3.jpg" alt="">
+      <div class="container-6">
+        <div class="left"><a href="https://youtu.be/KEFt2quibkg" class="link-video" target="_blank"><span class="fa-regular fa-circle-play"></span></a></div>
+        <div class="right">
+          <h3>FASTEST COURIER SERVICES</h3>
+          <h1>We Provide The Best And Fastest Courier Services Nowadays</h1>
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel.Lorem ipsum dolor sit, amet
+            consectetur ante ipsum elit.
+          </p>
+          <p>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus nunc.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-5 -->
+    <div class="section-5">
+      <div class="container-7">
+        <div class="top">
+          <h3>WHAT WE DO</h3>
+          <h1>Our Services</h1>
+        </div>
+        <div class="bottom">
+          <!-- box-1 -->
+          <div class="box">
+            <div class="box-top"><i class="fas fa-truck"></i></div>
+            <br />
+            <a href="#">Transportation</a>
+            <p>
+              Lorem ipsum dolor sit amet, elit. Id <br />
+              ab commodi magnam.
+            </p>
+          </div>
+          <!-- box-2 -->
+          <div class="box">
+            <div class="box-top">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <br />
+            <a href="#">Live Monitoring</a>
+            <p>
+              Lorem ipsum dolor sit amet, elit. Id <br />
+              ab commodi magnam.
+            </p>
+          </div>
+          <!-- box-3 -->
+          <div class="box">
+            <div class="box-top">
+              <i class="fas fa-people-carry"></i>
+            </div>
+            <br />
+            <a href="#">World Service</a>
+            <p>
+              Lorem ipsum dolor sit amet, elit. Id <br />
+              ab commodi magnam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-6 -->
+    <div class="section-6">
+      <div class="container-8">
+          <div class="service">
+            <div class="image"><img src="image/7.jpg" alt="" /></div>
+            <br />
+            <a href="#">Road Freight</a>
+            <p>Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+          </div>
+          <div class="service">
+            <div class="image"><img src="image/8.jpg" alt="" /></div>
+            <br />
+            <a href="#">Air Shipping</a>
+            <p>Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+          </div>
+          <div class="service">
+            <div class="image"><img src="image/5.jpg" alt="" /></div>
+            <br />
+            <a href="#">Logistic Service</a>
+            <p>Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+          </div>
+          <div class="service">
+            <div class="image"><img src="image/9.jpg" alt="" /></div>
+            <br />
+            <a href="#">Ground Shipping</a>
+            <p>Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+          </div>
+        </div>
+        <div class="bottom"><a href="#">More Services</a></div>
+    </div>
+
+    <!-- section-7 -->
+    <div class="section-7">
+      <img src="image/10.jpg" alt="" />
+      <div class="container-9">
+        <!-- slide-1 -->
+        <div class="leftbox">
+          <div class="topbox">
+            <i class="fas fa-quote-left me-2"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+              laudantium
+              voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+              Dolores molestias adipisci dolor sit amet! by the Desire to achieve
+              Success.
+            </p>
+          </div>
+          <div class="bottombox">
+            <div class="left"><img src="image/11.jpg" alt="" /></div>
+            <div class="right">
+              <h1>John wilson</h1>
+              <h3>Subtitle goes here</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-8 -->
+    <div class="section-8">
+      <div class="container-10">
+        <h3>OUR ARTICLE</h3>
+        <h1>
+          Stay Updated With Our <br />
+          News Feed
+        </h1>
+        <div class="box">
+          <!-- 1st -->
+          <div class="upperbox">
+            <div class="image">
+              <img src="image/7.jpg" alt="" />
+              <div class="imgcontent">
+                <h3>
+                  15 <br />
+                  Jan
+                </h3>
+              </div>
+            </div>
+            <br />
+            <div class="lowerbox">
+              <div class="first">
+                <div class="left">
+                  <i class="fas fa-user-alt"></i
+                  ><span
+                    style="
+                      font-size: 15px;
+                      font-weight: 600;
+                      color: darkgray;
+                      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                        'Open Sans', 'Helvetica Neue', sans-serif;
+                    "
+                    >by</span
+                  >
+                  <a href="#">David</a>
+                </div>
+                <div class="right">
+                  <i class="fas fa-comments"></i><a href="#">03 Comments</a>
+                </div>
+              </div>
+              <div class="second">
+                <a href="#"
+                  >Secure Courier For Small &
+                  Big Packages</a
+                >
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="upperbox">
+            <div class="image">
+              <img src="image/5.jpg" alt="" />
+
+              <div class="imgcontent">
+                <h3>
+                  19 <br />
+                  Jan
+                </h3>
+              </div>
+            </div>
+            <br />
+            <div class="lowerbox">
+              <div class="first">
+                <div class="left">
+                  <i class="fas fa-user-alt"></i
+                  ><span
+                    style="
+                      font-size: 15px;
+                      font-weight: 600;
+                      color: darkgray;
+                      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                        'Open Sans', 'Helvetica Neue', sans-serif;
+                    "
+                    >by</span
+                  >
+                  <a href="#">David</a>
+                </div>
+                <div class="right">
+                  <i class="fas fa-comments"></i><a href="#">05 Comments</a>
+                </div>
+              </div>
+              <div class="second">
+                <a href="#"
+                  >We Give You Complete
+                  Control Of Your Shipments.</a
+                >
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="upperbox">
+            <div class="image">
+              <img src="image/12.jpg" alt="" />
+              <div class="imgcontent">
+                <h3>
+                  20 <br />
+                  Jan
+                </h3>
+              </div>
+            </div>
+            <br />
+            <div class="lowerbox">
+              <div class="first">
+                <div class="left">
+                  <i class="fas fa-user-alt"></i
+                  ><span
+                    style="
+                      font-size: 15px;
+                      font-weight: 600;
+                      color: darkgray;
+                      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                        'Open Sans', 'Helvetica Neue', sans-serif;
+                    "
+                    >by</span
+                  >
+                  <a href="#">Mark</a>
+                </div>
+                <div class="right">
+                  <i class="fas fa-comments"></i><a href="#">06 Comments</a>
+                </div>
+              </div>
+              <div class="second">
+                <a href="#"
+                  >Secure Courier For Small &
+                  Big Packages.</a
+                >
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-9 -->
+    <div class="section-9">
+      <div class="container-11">
+        <img src="image/13.jpg" alt="" />
+        <div class="box">
+          <div class="content">
+            <p>Don't Miss Our Future Updates! Get Subscribed Today!</p>
+          </div>
+          <div class="form">
+            <input type="text" placeholder="Type Your Email Address" id="email"/>
+            <p id="note"></p>
+            <button value="" onclick="return emailvalidation()">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container-12">
+        <!-- left -->
+        <div class="left-content">
+          <div class="left1">
+            <a href="#"><i class="fas fa-truck-moving"></i>Transpolar</a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ute dolor sit.
+            </p>
+            <div class="btn">
+              <ul>
+                <li>
+                  <a href="#"><span class="fab fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#linkedin"
+                    ><span class="fab fa-linkedin-in"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#twitter"><span class="fab fa-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#google"
+                    ><span class="fab fa-google-plus-g"></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="right-content">
+          <div class="rightblock">
+            <div class="info">
+              <h1>Who We Are</h1>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">New & Media</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Work With Us</a></li>
+            </div>
+            <div class="info">
+              <h1>What We Do</h1>
+              <li><a href="#">Warehousing</a></li>
+              <li><a href="#">Air Freight</a></li>
+              <li><a href="#">Ocean Freight</a></li>
+              <li><a href="#">Road Freight</a></li>
+              <li><a href="#">Supply Chain</a></li>
+              <li><a href="#">Packing</a></li>
+            </div>
+            <div class="info">
+              <h1>Company</h1>
+              <li><a href="#">Request a Freight</a></li>
+              <li><a href="#">Track & Trace</a></li>
+              <li><a href="#">Job Application</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Support 24/7</a></li>
+              <li><a href="#">User Stories</a></li>
+            </div>
+            <div class="info">
+              <h1>More Info</h1>
+              <li><a href="#">Expert Tips</a></li>
+              <li><a href="#">Tips & Strategies</a></li>
+              <li><a href="#">Easy Payment</a></li>
+              <li><a href="#">Fast Delivery</a></li>
+              <li><a href="#">Faqs</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="container-13">
+          <div class="left-content">
+          <p>
+            © 2022 Transpolar.All rights reserved. Design by
+            <a href="https://w3layouts.com/" target="_blank">W3Layouts</a>
+          </p>
+        </div>
+          <div class="right-content">
+            <li><a href="#">Privecy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- responsive menubar JS -->
+
+    <script src="js file/index.js"></script>
+  </body>
+</html>
