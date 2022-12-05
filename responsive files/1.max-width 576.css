@@ -382,7 +382,7 @@
 
   .section-6 .container-8 .service {
     width: 100%;
-    padding: 10px 0px;
+    overflow: hidden;
   }
   .section-6 .container-8 .bottom {
     padding-top: 20px;
@@ -465,38 +465,36 @@
   }
   .section-8 .container-10 h1 {
     font-size: 30px;
-    color: #181d2e;
-    opacity: 0.9;
-    line-height: 35px;
+    line-height: 40px;
   }
   .section-8 .container-10 .box {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    gap: 25px;
+    margin-top: 20px;
   }
+
+  /* section-8 upper-box */
+
   .section-8 .container-10 .box .upperbox {
     width: 100%;
-    margin: 0px 0px;
-  }
-  .section-8 .container-10 .box .upperbox .image {
-    margin-top: 20px;
   }
   .section-8 .container-10 .box .upperbox .lowerbox {
     padding: 10px 10px;
   }
-  .section-8 .container-10 .box .upperbox .lowerbox .first i {
-    font-size: 15px;
+
+  /* section-8 lower-box */
+
+  .section-8 .container-10 .box .upperbox .lowerbox .first {
+    display: flex;
   }
-  .section-8 .container-10 .box .upperbox .lowerbox .first a {
-    font-size: 15px;
+  .section-8 .container-10 .box .upperbox .lowerbox a:hover {
+    color: rgb(255, 102, 0);
   }
-  .section-8 .container-10 .box .upperbox .lowerbox .second {
-    text-align: left;
-    padding-top: 10px;
-  }
+
   .section-8 .container-10 .box .upperbox .lowerbox .second p {
-    font-size: 15px;
     padding-top: 10px;
   }
 
