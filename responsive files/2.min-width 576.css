@@ -387,65 +387,21 @@
 
   /* section-7 */
 
-  .section-7 {
-    margin: 50px 0px;
+  .swiper-slide {
+    padding-left: 65px;
+    top: 125px;
   }
-  .section-7 .container-9 {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 140px;
+    left: 60px;
   }
-  .section-7 .container-9 .leftbox {
+  .swiper-wrapper .text p {
+    line-height: 25px;
+    word-spacing: 5px;
     width: 100%;
-  }
-  .section-7 .container-9 .leftbox .topbox {
-    width: 100%;
-    height: auto;
-    padding: 20px 20px;
-  }
-  .section-7 .container-9 .leftbox .topbox i {
-    color: #ccced1;
-    font-size: 40px;
-    padding-bottom: 20px;
-  }
-  .section-7 .container-9 .leftbox .topbox p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: #ccced1;
-    text-align: justify;
-    letter-spacing: 0.7px;
-    line-height: 30px;
-    text-align: justify;
-  }
-
-  /* section-7 bottom */
-
-  .section-7 .container-9 .leftbox .bottombox {
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: 20px 20px;
-  }
-  .section-7 .container-9 .leftbox .bottombox .left {
-    width: 70px;
-    height: 70px;
-  }
-  .section-7 .container-9 .leftbox .bottombox .left img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    outline-offset: 2px;
-    outline-style: solid;
-    outline-color: white;
-    outline-width: 2px;
-    box-shadow: 1px 1px 30px orangered;
-  }
-
-  .section-7 .container-9 .leftbox .bottombox .right h1 {
-    font-size: 30px;
   }
 
   /* section-8 */
@@ -533,7 +489,7 @@
     padding: 20px 0px;
   }
   footer .container-12 {
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: auto;
     padding: 0px 0px;
@@ -569,7 +525,7 @@
   }
   footer .bottom {
     border-top: 1px solid white;
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
   footer .bottom .container-13 {
