@@ -18,6 +18,11 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.14/jquery.bxslider.css"/>
 
+    <!-- Swiper-->
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css"/>
+
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
 
@@ -50,7 +55,7 @@
     <div class="container">
     <div class="navigation">
     <h1 class="logo">
-      <a href="#" class="trans"><i class="fas fa-truck-moving"></i><span ">Transpolar</span> </a>
+      <a href="#" class="trans"><i class="fas fa-truck-moving"></i><span>  Transpolar</span> </a>
     </h1>
   <div class="men_barlist">
     <ul>
@@ -89,7 +94,7 @@
           <li><a href="#">&nbspError Page</a></li>
         </ul>
       </li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#contact-footer">Contact</a></li>
       <a href="#" class="search"
         ><span class="fa-solid fa-magnifying-glass"></span
       ></a>
@@ -333,19 +338,29 @@
     </div>
 
     <!-- section-7 -->
-    <div class="section-7">
-      <img src="image/10.jpg" alt="" />
-      <div class="container-9">
-        <!-- slide-1 -->
-        <div class="leftbox">
-          <div class="topbox">
-            <i class="fas fa-quote-left me-2"></i>
+    <div
+      style="
+        --swiper-navigation-color: #fff;
+        --swiper-pagination-color: orangered;
+      "
+      class="swiper mySwiper"
+    >
+      <div
+        class="parallax-bg"
+        style="background-image: url(image/10.jpg)"
+        data-swiper-parallax="0%"
+      ></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="subtitle" data-swiper-parallax="0">
+            <i class="fas fa-quote-left me-2" style="font-size: 50px"></i>
+          </div>
+          <div class="text" data-swiper-parallax="0">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
-              laudantium
-              voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-              Dolores molestias adipisci dolor sit amet! by the Desire to achieve
-              Success.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+              esse quasi, doloribus tempora. Dolores molestias adipisci dolor
+              sit amet! by the Desire to achieve Success.
             </p>
           </div>
           <div class="bottombox">
@@ -356,7 +371,52 @@
             </div>
           </div>
         </div>
+
+        <div class="swiper-slide">
+          <div class="subtitle" data-swiper-parallax="0">
+            <i class="fas fa-quote-left me-2" style="font-size: 50px"></i>
+          </div>
+          <div class="text" data-swiper-parallax="0">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+              esse quasi, doloribus tempora. Dolores molestias adipisci dolor
+              sit amet! by the Desire to achieve Success.
+            </p>
+          </div>
+          <div class="bottombox">
+            <div class="left"><img src="image/14.jpg" alt="" /></div>
+            <div class="right">
+              <h1>Julia Sakura</h1>
+              <h3>Subtitle goes here</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="subtitle" data-swiper-parallax="0">
+            <i class="fas fa-quote-left me-2" style="font-size: 50px"></i>
+          </div>
+          <div class="text" data-swiper-parallax="0">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+              esse quasi, doloribus tempora. Dolores molestias adipisci dolor
+              sit amet! by the Desire to achieve Success.
+            </p>
+          </div>
+          <div class="bottombox">
+            <div class="left"><img src="image/15.jpg" alt="" /></div>
+            <div class="right">
+              <h1>Roy Mmdson</h1>
+              <h3>Subtitle goes here</h3>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="swiper-button-next" style="display: none"></div>
+      <div class="swiper-button-prev" style="display: none"></div>
+      <div class="swiper-pagination"></div>
     </div>
 
     <!-- section-8 -->
@@ -523,12 +583,12 @@
     </div>
 
     <!-- footer -->
-    <footer>
+    <footer id="contact-footer">
       <div class="container-12">
         <!-- left -->
         <div class="left-content">
           <div class="left1">
-            <a href="#"><i class="fas fa-truck-moving"></i>Transpolar</a>
+            <a href="#"><i class="fas fa-truck-moving"></i>  Transpolar</a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ute dolor sit.
@@ -614,5 +674,26 @@
     <!-- responsive menubar JS -->
 
     <script src="js file/index.js"></script>
+
+    <!-- Swiper section-7 -->    
+
+    <!-- JavaScript only -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        speed: 600,
+        parallax: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
